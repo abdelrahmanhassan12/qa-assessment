@@ -88,17 +88,3 @@ Below is a brief overview of the available endpoints.  See the auto‑generated 
 - **Authentication** – tokens never expire while the server runs; token revocation and refresh flows are not implemented.
 - **UI/Deployment** – no front‑end or containerisation is provided out of the box.  These are left as extensions for further work.
 
-## Extending the Project
-
-If you have more time or wish to earn bonus points, consider implementing the following:
-
-- Replace the TF‑IDF/FAISS combination with a modern embedding model (e.g. via [sentence-transformers](https://www.sbert.net/)) and a persistent vector database (e.g. Chroma, Pinecone, or Elasticsearch).
-- Add support for multiple users with isolated document spaces in the vector database.
-- Provide a Docker Compose setup bundling the FastAPI app, SQLite database and a vector store.
-- Write unit tests covering authentication, uploads, search and logging.
-- Build a simple HTML/React front‑end for interacting with the API.
-- Deploy the service to a cloud platform such as Render, Railway or AWS.
-
----
-
-Created for an AI Engineering assignment due **5 Aug 2025**.
