@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+sqlalchemy
+passlib[bcrypt]
+PyJWT
+PyPDF2
+faiss-cpu
+python-multipart
